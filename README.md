@@ -12,7 +12,7 @@ The app is built using [Next.js](https://nextjs.org/docs), a React framework for
 
 ## Scripts
 
-`yarn dev`: Starts a Next.js development server
-`yarn build`: Builds a production build of the app, outputted to the .next directory
-`yarn start`: Starts a Next.js production server
-`yarn storybook`: "start-storybook -p 6006 -c .storybook"
+- `yarn dev` Starts a Next.js development server
+- `yarn build` Builds a production build of the app, outputted to the .next directory
+- `yarn start` Starts a Next.js production server
+- `yarn storybook` "start-storybook -p 6006 -c .storybook"
