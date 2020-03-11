@@ -2,10 +2,11 @@
 
 ## A collection of tips, tricks, and commonly used components.
 
-This project has two parts:
+This project has three parts:
 
-1. A React app that demos patterns and presents tips and tricks for building React SPAs
-2. A Storybook app that demos commonly implemented components
+1. A React app that demos patterns and presents tips and tricks for building React SPAs.
+2. A Storybook app that demos commonly implemented components.
+3. A resources directory full of .md files which contain my notes on various web topics. This is a less polished version of the React App tips and tricks.
 
 The app is built using [Next.js](https://nextjs.org/docs), a React framework for building server rendered SPAs.
 
