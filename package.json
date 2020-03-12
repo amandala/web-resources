@@ -11,10 +11,14 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
     "lint": "eslint src/**/*.tsx",
-    "precommit": "yarn lint && yarn test",
     "storybook": "start-storybook -p 6006 -c .storybook",
     "storybook-build": "build-storybook -c .storybook -o /docs",
     "storybook-deploy": "storybook-to-ghpages"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn test"
+    }
   },
   "dependencies": {
     "eslint-config-nextjs": "^1.0.3",
