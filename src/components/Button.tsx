@@ -4,4 +4,4 @@ type Props = {
   text: string;
 };
 
-export default ({ text }: Props) => <button type="button">{text}</button>;
+export default ({ text }: Props) => <button>{text}</button>;
