@@ -89,3 +89,24 @@ export const OneSecondTick = () => {
 
   return <BarGraph data={data} />;
 };
+
+export const TickOnHover = () => {
+  const [data, setData] = React.useState(randomDataArray(10));
+  const [activeTick, setActiveTick] = React.useState(false);
+
+  const tick = () => {
+    if (activeTick) {
+      setData(randomDataArray(10));
+    }
+  };
+
+  useInterval(() => tick(), 1000);
+
+  return (
+    <BarGraph
+      onMouseEnter={() => setActiveTick(true)}
+      onMouseLeave={() => setActiveTick(false)}
+      data={data}
+    />
+  );
+};
