@@ -21,6 +21,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "comma-dangle": ["error", "never"],
     "quotes": ["error", "double"],
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
