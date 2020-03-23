@@ -6,8 +6,8 @@ import styles from "./index.module.scss";
 // @ts-ignore
 type PropsType = {
   data: any;
-  onMouseEnter: () => void;
-  onMouseLeave: () => void;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 };
 
 const BarGraph = (props: PropsType) => {
